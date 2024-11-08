@@ -1,0 +1,147 @@
+*{
+     margin:0;
+     padding:0;
+     box-sizing:border-box;
+     font-family: Arial, Helvetica, sans-serif;
+     text-decoration: none;
+}
+.layout{
+     width: 1000px; 
+     height:800px;
+     margin:0 auto;
+}
+header img{
+     margin:20px 40%;
+     height:100px;
+     margin:20 auto;
+     box-sizing: border-box;
+}
+nav{
+     background-color: #93b719;
+     color:rgb(255, 255, 255);
+     height:50px;
+}
+nav .menu ul li{
+     list-style: none;
+     float:left;
+     line-height:50px ;
+     font-variant: small-caps;
+     margin:0 10px;
+     font-size: 25px;
+     padding-left: 20px;
+}
+nav .menu li a:hover{
+     color: rgb(17, 0, 255);
+     text-decoration: none;
+     text-shadow: 3px 5px 3px yellow;
+}
+nav .menu li a:visited{
+     color: rgb(245, 0, 0);
+}
+nav .search {
+     line-height: 50px;
+     float:right;
+     margin:0 10px;
+     border:none;
+     
+}
+nav .search .submit1{
+     width:250px;
+     margin:0 10px;
+     height:30px;
+     font-size: 15px;
+     padding-left: 10px;
+}
+form button{
+     border-radius: 50px;
+     background-color: rgb(49, 46, 46);
+     width:50px;
+     color:white;
+     height:35px;
+     font-size: 20px;
+     line-height: 35px;
+}
+article .box1{
+     border: 1px solid black;
+     height:800px;
+     width:20%;
+     box-sizing: border-box;
+     float:left;
+     background-color: rgb(198, 195, 195);
+
+}
+article .box2{
+     background-color: rgb(74, 71, 71);
+     border: 1px solid rgb(81, 60, 60);
+     height:800px;
+     width:60%;
+     box-sizing: border-box;
+     float:left;
+}
+article .box2 .noidung1{      
+     padding:30px;
+     width:95%;
+     height:300px;
+     color:white;
+     border:2px solid white;
+     margin:10px 10px;
+     box-sizing: border-box;
+     text-align: left;
+     float: left;
+     margin-right: 15px;
+}
+article .box2 .noidung1 h3{
+     padding:10px;
+     margin-right: 10px;
+}   
+.noidung1 img {
+     float:left;
+     padding-right: 10px;
+}
+aside{
+     border: 1px solid black;
+     width:20%;
+     height:800px;
+     box-sizing: border-box;
+     float:left;
+     background-color: rgb(198, 195, 195);
+}
+aside .left{
+     padding:15px;
+     font-size: 20px;
+}
+aside h3{
+     border-bottom: 2px solid black;
+     padding:10px;
+     text-align: center;
+     font-size: 15px;
+}
+footer{
+     background-color: #93b719;
+     height:50px;
+     margin-top: 80%;
+     text-align: center;
+     font-size: 20px;
+    font-variant: small-caps;
+    line-height: 50px;
+}
+.left input{
+    margin-top:10px ;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    background-color: rgb(239, 232, 232);
+    color:white;
+}
+
+
+.sub button{
+     width:90px;
+     margin:20px 40px;
+     background-color: green;
+     height:30px;
+     color:white;
+     text-align: center;
+}
+
+
+
